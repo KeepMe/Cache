@@ -1,6 +1,6 @@
 <?php
 
-namespace KeepMe\Cache;
+namespace KeepMe\Cache\Contract;
 
 /**
  * Interface LazyCache
@@ -26,7 +26,7 @@ interface LazyCache
      *
      * @return mixed The value returned by the callable.
      *
-     * @throws \KeepMe\Cache\InvalidArgumentException
+     * @throws \KeepMe\Cache\Contract\InvalidArgumentException
      *   MUST be thrown if the $key string is not a legal value.
      */
     public function cache($key, callable $callable, $ttl = null);
@@ -38,7 +38,7 @@ interface LazyCache
      *
      * @return bool True if the cached entry was successfully removed. False if there was an error.
      *
-     * @throws \KeepMe\Cache\InvalidArgumentException
+     * @throws \KeepMe\Cache\Contract\InvalidArgumentException
      *   MUST be thrown if the $key string is not a legal value.
      */
     public function delete($key);

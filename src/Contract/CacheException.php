@@ -1,6 +1,6 @@
 <?php
 
-namespace KeepMe\Cache;
+namespace KeepMe\Cache\Contract;
 
 /**
  * Exception interface for all exceptions thrown by an Implementing Library.

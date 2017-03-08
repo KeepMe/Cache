@@ -1,0 +1,15 @@
+{
+    "name": "keepme/cache",
+    "description": "Easy to use cache - 3 methods in total! - with simple implementation based on PSR-6 standard.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Darmetko",
+            "email": "isinlor@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/cache": "^1.0"
+    }
+}
